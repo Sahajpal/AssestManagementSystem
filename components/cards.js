@@ -18,6 +18,7 @@ function Card(props) {
       maxWidth="32rem"
       borderWidth={2}
       margin={2}
+      fontFamily="Montserrat"
       rounded="md"
     >
       <AspectRatio ratio={1 / 1}>
@@ -40,7 +41,6 @@ function Card(props) {
           textTransform="uppercase"
           fontSize="lg"
           letterSpacing="wide"
-          color="teal.400"
           my={2}
         >
           {product}
@@ -49,7 +49,6 @@ function Card(props) {
             mt={2}
             display="block"
             fontSize="md"
-            color="whiteAlpha.900"
             textAlign="left"
             lineHeight="normal"
             fontWeight="semibold"
@@ -60,7 +59,6 @@ function Card(props) {
             mx={5} 
             my={5} 
             textAlign="left"
-            color="whiteAlpha.700" 
             fontSize="x-small"
           >
             {longLine}

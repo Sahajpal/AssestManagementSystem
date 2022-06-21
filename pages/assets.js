@@ -45,7 +45,7 @@ function Assets() {
   return (
     <ChakraProvider>
       <Container maxW="80rem" centerContent>
-        <SimpleGrid columns={[1, 2, 1, 2]}>
+        <SimpleGrid columns={[1, 4, 1, 4]}>
           {dataList.map(function (data) {
             const { id, product, summary, longLine } = data
             return (

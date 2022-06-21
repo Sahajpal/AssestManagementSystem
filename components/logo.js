@@ -22,14 +22,15 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={dp} width={20} height={20} alt="logo"></Image>
+          <Image src={dp} width={28} height={28} alt="logo"></Image>
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily="M PLUS Rounded 1c"
+            fontFamily="Montserrat"
             fontWeight="bold"
+            fontSize="30px"
             ml={3}
           >
-            Asset Management System
+            AsMS
           </Text>
         </LogoBox>
       </a>
